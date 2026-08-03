@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{englert1948diccionario}
+S.~Englert, Diccionario Rapanui-Espa\~nol, 1948, translated from Spanish to English by Jacques Guy.
+
+\bibitem{barthel1958grundlagen}
+T.~S. Barthel, Grundlagen zur Entzifferung der Osterinselschrift, Cram, de Gruyter, Hamburg, 1958.
+
+\bibitem{guy_rongorongo_org}
+J.~Guy, \href{http://kohaumotu.org/rongorongo_org/}{Rongorongo or the hieroglyphs of the easter island tablets}, archived and mirrored by Philip Spaelti (2005).
+\newline\urlprefix\url{http://kohaumotu.org/rongorongo_org/}
+
+\bibitem{spaelti_2012_glyph}
+P.~Spaelti, \href{http://kohaumotu.org/Rongorongo/Glyph_Library/index.html}{Glyph library}.
+\newline\urlprefix\url{http://kohaumotu.org/Rongorongo/Glyph_Library/index.html}
+
+\end{thebibliography}
