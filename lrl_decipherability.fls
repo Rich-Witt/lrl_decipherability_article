@@ -214,10 +214,11 @@ INPUT ./fig_glyphs_example.png
 INPUT ./fig_glyphs_example.png
 INPUT ./fig_glyphs_example.png
 INPUT ./fig_glyphs_example.png
-INPUT ./fig_placeholder.png
-INPUT ./fig_placeholder.png
-INPUT ./fig_placeholder.png
-INPUT ./fig_placeholder.png
+INPUT ./fig_HDBSCAN Pipeline.png
+INPUT ./fig_HDBSCAN Pipeline.png
+INPUT ./fig_HDBSCAN Pipeline.png
+INPUT ./fig_HDBSCAN Pipeline.png
+INPUT ./fig_HDBSCAN Pipeline.png
 INPUT ./lrl_decipherability.bbl
 INPUT ./lrl_decipherability.bbl
 INPUT lrl_decipherability.bbl

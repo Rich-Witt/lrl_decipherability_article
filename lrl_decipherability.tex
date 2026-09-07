@@ -273,24 +273,32 @@ and \texttt{001} represents both variants
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Methodology and rationale}
 \label{meth}
-We apply a machine learning clustering pipeline centered around an HDBSCAN model and information-theoretic techniques as complementary methods. HDBSCAN attempts to group data points into separable clusters by evaluating multivariate similarity among informational features. HDBSCAN is especially useful in unknown languages since it creates separation without requiring labels or a predetermined number of clusters. Information-theoretic measures summarize corpus properties such as uncertainty, redundancy, and properties relevant to decipherability. Shannon entropy measure the uncertainty in the distribution while redundancy 
+We apply a machine learning clustering pipeline centered around an HDBSCAN model and information-theoretic techniques as complementary methods. HDBSCAN attempts to group data points into separable clusters by evaluating multivariate similarity among informational features. HDBSCAN is especially useful in unknown languages since it creates separation without requiring labels or a predetermined number of clusters. Information-theoretic measures summarize corpus properties such as uncertainty, redundancy, and properties relevant to decipherability. Shannon entropy measure the uncertainty in the distribution while redundancy reflects predictable or repeatable structure. Both approaches distinguish patterns that can be inferred from the data without linguistic or archeological interpretations. 
 
-and entropy-based measures attempt to measure how predictable and redundant each corpus is.  
+
+ 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 frame the paper as a comparative analysis between ML specific methods (HDBSCAN) and information theoretic (and statistical) methods and compare.
 
 It doesn't matter if these languages are logographic or syllabic, or alien. What I want you to focus on is on what kind of information we can extract from data that we don't know too much about (is agnostic). Assume these are dolphin languages or alien languages.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsection{Machine Learning with HDBSCAN}
+HDBSCAN pipeline consists of seven separate stages. Corpus Ingestion, TF-IDF Vectorization and UMAP Dimensionality Reduction prepare the data for the HDBSCAN algorithm. The HDBSCAN algorithm analyzes the data to form groups by evaluating the relative density and proximity of the data points. Topic extraction supports interpretation of resulting clusters and 3D Projection prepares the HDBSCAN output for 3 dimensional visualization. Each step of the process is described in the following paragraphs.
+
+
+
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{fig_placeholder.png}
-\caption{\textbf{TODO.} TODO.}
-\label{fig_DS_Process}
+\includegraphics[width=0.9\textwidth]{fig_HDBSCAN Pipeline.png}
+\caption{\textbf{HDBSCAN Pipeline.} HDBSCAN pipeline showing Corpus Ingestion, TF-IDF Vectorization, UMAP Dimensionality Reduction, HDBSCAN Clustering, Topic Extraction, Three Dimensional Projection, and Interactive Visualization used in the analysis.}
+\label{fig_HDBSCAN_pipeline}
 \end{figure}
 
-\subsection{Machine Learning}
-HDBSCAN
+
+
 \subsection{Information Theoretical}
 Entropy
 Unicity Distance
@@ -309,7 +317,7 @@ TODO
 \section{Discussion and Future Work}
 \label{discussion}
 
-TODO
+The methods in this paper cannot decipher the meaning or linguistic composition of an unknown symbolic system. Instead they determine if the available data contain non-random regularities and what scale those regularities happen. It can also be used to determine if the corpus is of sufficient size and non-random enough to support more specific analysis. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % appendix

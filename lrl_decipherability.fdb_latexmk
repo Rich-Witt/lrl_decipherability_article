@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex lrl_decipherability"] 1788800078.52048 "lrl_decipherability.aux" "lrl_decipherability.bbl" "lrl_decipherability" 1788800079.54445 0
+["bibtex lrl_decipherability"] 1788806739.69565 "lrl_decipherability.aux" "lrl_decipherability.bbl" "lrl_decipherability" 1788806740.80935 0
   "./elsarticle-num.bst" 1777719431.60724 29705 24aacf83364480458e00d81ae23af260 ""
   "./master.bib" 1785101490.74269 33669 0fedc3f2836f4b9acc85e38013d31993 ""
-  "lrl_decipherability.aux" 1788800079.34528 4079 a30ea4ca23de2b7a1ac8ef5c84a0f53e "pdflatex"
+  "lrl_decipherability.aux" 1788806740.61889 4542 3f4f86dcb648046cef8e55cf2f323733 "pdflatex"
   (generated)
   "lrl_decipherability.bbl"
   "lrl_decipherability.blg"
   (rewritten before read)
-["pdflatex"] 1788800078.61914 "/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/lrl_decipherability.tex" "lrl_decipherability.pdf" "lrl_decipherability" 1788800079.54454 0
-  "/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/lrl_decipherability.tex" 1788800077.27043 15829 673ed82ac07b83ff7ffa05e366ee63c8 ""
+["pdflatex"] 1788806739.7922 "/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/lrl_decipherability.tex" "lrl_decipherability.pdf" "lrl_decipherability" 1788806740.80947 0
+  "/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/lrl_decipherability.tex" 1788806738.4072 17008 ed9aa940da7577f92065cb844c597e05 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -122,14 +122,15 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1756776006 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
+  "fig_HDBSCAN Pipeline.png" 1788805018.86473 58508 48a43748fa5238559dd64a6cc5df70fc ""
   "fig_glyphs_example.png" 1785095574.68712 422600 9e451005b32a6db38e1174760ed60341 ""
   "fig_placeholder.png" 1785064740.54758 496724 d645753337f8b83d9855aad504c1cb4e ""
   "fig_rongo_g_washington.png" 1785097620.09211 3321086 90a041533b44eadf3f2d73e2fa2d57fa ""
-  "lrl_decipherability.aux" 1788800079.34528 4079 a30ea4ca23de2b7a1ac8ef5c84a0f53e "pdflatex"
-  "lrl_decipherability.bbl" 1788800078.61735 1001 f5d43bbbd9ae92aa2ee61e73d2b13a6b "bibtex lrl_decipherability"
-  "lrl_decipherability.out" 1788800079.34573 1844 ed1cab7dac61499be09765a4293b8ada "pdflatex"
-  "lrl_decipherability.spl" 1788800078.74371 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "lrl_decipherability.tex" 1788800077.27043 15829 673ed82ac07b83ff7ffa05e366ee63c8 ""
+  "lrl_decipherability.aux" 1788806740.61889 4542 3f4f86dcb648046cef8e55cf2f323733 "pdflatex"
+  "lrl_decipherability.bbl" 1788806739.78986 1001 f5d43bbbd9ae92aa2ee61e73d2b13a6b "bibtex lrl_decipherability"
+  "lrl_decipherability.out" 1788806740.61962 1915 021de06a663a96c2f6842ba009c00969 "pdflatex"
+  "lrl_decipherability.spl" 1788806739.92625 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "lrl_decipherability.tex" 1788806738.4072 17008 ed9aa940da7577f92065cb844c597e05 ""
   (generated)
   "lrl_decipherability.aux"
   "lrl_decipherability.log"

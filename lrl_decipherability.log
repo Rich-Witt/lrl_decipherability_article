@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 SEP 2026 12:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 SEP 2026 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -420,16 +420,17 @@ Package pdftex.def Info: fig_glyphs_example.png  used on input line 263.
 
 
 [3 <./fig_rongo_g_washington.png>]
-File: fig_placeholder.png Graphic file (type png)
-<use fig_placeholder.png>
-Package pdftex.def Info: fig_placeholder.png  used on input line 287.
-(pdftex.def)             Requested size: 350.99762pt x 198.03404pt.
-
 
 [4 <./fig_glyphs_example.png>]
+<fig_HDBSCAN Pipeline.png, id=130, 930.47626pt x 150.5625pt>
+File: fig_HDBSCAN Pipeline.png Graphic file (type png)
+<use fig_HDBSCAN Pipeline.png>
+Package pdftex.def Info: fig_HDBSCAN Pipeline.png  used on input line 295.
+(pdftex.def)             Requested size: 350.99762pt x 56.79391pt.
 
-[5]
-Underfull \hbox (badness 2837) in paragraph at lines 333--333
+
+[5 <./fig_HDBSCAN Pipeline.png>]
+Underfull \hbox (badness 2837) in paragraph at lines 341--341
 []|\T1/cmr/m/n/12 Earth Sci-ence and Ap-pli-ca-tions from
  []
 
@@ -448,21 +449,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `lrl_decipherability.out' has not changed.
-(rerunfilecheck)             Checksum: ED1CAB7DAC61499BE09765A4293B8ADA;1844.
+(rerunfilecheck)             Checksum: 021DE06A663A96C2F6842BA009C00969;1915.
  ) 
 Here is how much of TeX's memory you used:
- 11585 strings out of 473190
- 174843 string characters out of 5715801
- 580636 words of memory out of 5000000
- 34638 multiletter control sequences out of 15000+600000
+ 11592 strings out of 473190
+ 175065 string characters out of 5715801
+ 580858 words of memory out of 5000000
+ 34645 multiletter control sequences out of 15000+600000
  573580 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,743b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,914b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on lrl_decipherability.pdf (9 pages, 4626148 bytes).
+Output written on lrl_decipherability.pdf (9 pages, 4666357 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
+ 225 PDF objects out of 1000 (max. 8388607)
  177 compressed objects within 2 object streams
  37 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
