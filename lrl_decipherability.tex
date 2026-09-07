@@ -54,7 +54,7 @@
 \PassOptionsToPackage{hyphens}{url}
 \usepackage{hyperref}
 \hypersetup{
-  pdftitle={Informational Content Analysis of Undeciphered Scripts},
+  pdftitle={Informational Content Analysis of Lost Languages},
   pdfauthor={Richard H. Witt, Anamaria Berea},
   colorlinks=true,   % true: colored links instead of boxes
   hypertexnames=false, % avoid duplicate page anchor names in frontmatter
@@ -150,7 +150,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 %% Text of abstract
-Deciphering lost scripts creates new sources of evidence to understand how language evolved, verify archaeological evidence, and rediscover lost knowledge. Low resource languages, particularly, undeciphered scripts, present a particular challenge for Natural Language Processing since the small corpus size requires us to determine if the available informational content is sufficient for decipherment to be theoretically possible. This paper outlines several methods used to aid in decipherment. Unicity distance is calculated for Rongorongo, Linear A, and the Indus Valley Script to determine decipherability. These three lost scripts are then analyzed to determine the type of writing system using Zipf's Law and HDBSCAN. By combining these two analyses it is found that the Linear A corpus does have enough informational content for decipherment regardless of assumed writing type, however the Rongorongo and Indus Valley corpora only have enough information if we assume they are logographic. [I will be able to make some statement like this, but likely not as strong.]
+
+This study investigates what information can be recovered from symbolic data such as lost languages. It compares two exploratory approaches that require no prior knowledge of the data. Machine learning clustering and information theoretic measurements. HDBSCAN is used to uncover recurring groups without predefined categories.  Information theoretic measures quantify redundancy, uncertainty, and unicity distance. 
+
 
 \end{abstract}
 
@@ -227,7 +229,8 @@ In his 1958 work \emph{Grundlagen zur Entzifferung der Osterinselschrift} Barthe
 Horley provides corrected glyphs and 
 
 Jacques Guy provided the tablet detail \cite{guy_rongorongo_org} and original web resources Philip Spaelti used to create Kohaumotu.org which provides the glyph library this paper uses as input data. \cite{spaelti_2012_glyph}
-\subsection{TODO}
+
+\subsection{}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -235,32 +238,18 @@ Jacques Guy provided the tablet detail \cite{guy_rongorongo_org} and original we
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Data}
 \label{data}
-Two distinct data sets were used. One for Rongo Rongo and one for Linear A.
-Linear A
-Indus valley script is
-Rongo Rongo is the extinct script of Easter Island 
-
+Two distinct data sets were used for this paper. One for Rongo Rongo and one for Linear A. Rongo Rongo is the extinct script of Easter Island. Linear A is also lost script that was used on Crete during the second millennium BCE. 
 
 \subsection{Rongo Rongo}
-Both the analysis of Rongo Rongo with variants and  Rongo Rongo analysis without variants was conducted using data available at the \href{http://kohaumotu.org/Rongorongo/Glyph_Library/glyph_variants.html}{Rongorongo corpus (codes only)}.This data is \cite{}.
-Initially recorded by Barthel in 1958 \cite{}.  
-Impressive interactive website greatly aiding in the understanding of Rongo Rongo glyphs.
-We make no assertion on the accuracy 
-26 Tablets Coded A though Z. 
-from \href{http://kohaumotu.org/Rongorongo_new/views/codes_only.php}{the Kohaumotu Rongorongo codes page}.
+Data available at the \href{http://kohaumotu.org/Rongorongo/Glyph_Library/glyph_variants.html}{Rongorongo corpus (codes only)}\cite{} was used for all analysis of Rongo Rongo. This site relies on the work initially recorded by Barthel in 1958 \cite{} which as been assembled in to an impressive interactive website greatly aiding in the understanding of Rongo Rongo glyphs. This paper relies on the accuracy of transliterations from this prior work. 
 
-Create a corpus of all encodings for Rongorongo based on updated 3 character
-glyph codes.
+The Rongo Rongo corpus consists of 26 Tablets Coded A though Z and retrieved from \href{http://kohaumotu.org/Rongorongo_new/views/codes_only.php}{the Kohaumotu Rongorongo codes page}. The updated 3 character glyph codes were used to create an encoding library of all encodings. Instead of using the glyphs themselves we rely directly on the index created by Barthel to represent a manual encoding of glyphs.
 
-Insead of using the glyphs themeselves we rely directly on the index created by Barthel as it represents a manual encoding of glyphs.
+The glyphs are numbered in a systematic manner. Each row is intended to categorize the glyphs with Row 0 containing the simplest forms while higher rows increase in complexity. While only 90 rows are shown 799 total rows were categorized by Barthel and avaliable in \cite{} and in the Kohaumotu.org website. \cite{}.
 
-Glyphs are numbered in a systematic manner.  
-Each row is intended to categorize the gliphs with Row 0 containing the simplest forms while higher rows increase in complexity.  
-While only 90 rows are shown 799 total rows were categorized by Barthel and avaliable in \cite{} and in the Kohaumotu.org cite. 
-
-To create the index used in this analysis the row and column are concatenated to result in the three diget index used.
+To create the index used in this analysis the row and column are concatenated to result in the three digit index used.
 In this manner \texttt{000} represents the blank space in the upper left. 
-and \texttt{001} represents both variants 
+and \texttt{001} represents both variants
 
 \begin{figure}[H]
 \centering
@@ -278,13 +267,21 @@ and \texttt{001} represents both variants
 
 \subsection{Linear A}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Methodology and rationale 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Methodology and rationale}
 \label{meth}
-TODO
+We apply a machine learning clustering pipeline centered around an HDBSCAN model and information-theoretic techniques as complementary methods. HDBSCAN attempts to group data points into separable clusters by evaluating multivariate similarity among informational features. HDBSCAN is especially useful in unknown languages since it creates separation without requiring labels or a predetermined number of clusters. Information-theoretic measures summarize corpus properties such as uncertainty, redundancy, and properties relevant to decipherability. Shannon entropy measure the uncertainty in the distribution while redundancy 
 
+and entropy-based measures attempt to measure how predictable and redundant each corpus is.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+frame the paper as a comparative analysis between ML specific methods (HDBSCAN) and information theoretic (and statistical) methods and compare.
+
+It doesn't matter if these languages are logographic or syllabic, or alien. What I want you to focus on is on what kind of information we can extract from data that we don't know too much about (is agnostic). Assume these are dolphin languages or alien languages.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{fig_placeholder.png}
@@ -292,7 +289,12 @@ TODO
 \label{fig_DS_Process}
 \end{figure}
 
-\subsection{TODO}
+\subsection{Machine Learning}
+HDBSCAN
+\subsection{Information Theoretical}
+Entropy
+Unicity Distance
+\subsection{Statistical}
 TODO
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

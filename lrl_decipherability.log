@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  3 AUG 2026 09:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 SEP 2026 12:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -373,10 +373,10 @@ Package hyperref Info: Link coloring ON on input line 76.
 \@outlinefile=\write4
 \openout4 = `lrl_decipherability.out'.
 
-<fig_placeholder.png, id=56, 1110.1475pt x 626.34pt>
+<fig_placeholder.png, id=64, 1110.1475pt x 626.34pt>
 File: fig_placeholder.png Graphic file (type png)
 <use fig_placeholder.png>
-Package pdftex.def Info: fig_placeholder.png  used on input line 159.
+Package pdftex.def Info: fig_placeholder.png  used on input line 161.
 (pdftex.def)             Requested size: 350.99762pt x 198.03404pt.
 
 
@@ -387,11 +387,11 @@ Package pdftex.def Info: fig_placeholder.png  used on input line 159.
 [2
 
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 191.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 193.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 191.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 193.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -400,36 +400,36 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-Overfull \hbox (4.31482pt too wide) in paragraph at lines 225--226
+Overfull \hbox (4.31482pt too wide) in paragraph at lines 227--228
 []\T1/cmr/m/n/12 In his 1958 work \T1/cmr/m/it/12 Grund-la-gen zur Entz-if-fer-ung der Os-terin-selschrift \T1/cmr/m/n/12 Barthel
  []
 
 
 
 [2]
-<fig_rongo_g_washington.png, id=106, 1495.08563pt x 366.87062pt>
+<fig_rongo_g_washington.png, id=114, 1495.08563pt x 366.87062pt>
 File: fig_rongo_g_washington.png Graphic file (type png)
 <use fig_rongo_g_washington.png>
-Package pdftex.def Info: fig_rongo_g_washington.png  used on input line 267.
+Package pdftex.def Info: fig_rongo_g_washington.png  used on input line 256.
 (pdftex.def)             Requested size: 350.99762pt x 86.12503pt.
-<fig_glyphs_example.png, id=107, 854.19125pt x 564.1075pt>
+<fig_glyphs_example.png, id=115, 854.19125pt x 564.1075pt>
 File: fig_glyphs_example.png Graphic file (type png)
 <use fig_glyphs_example.png>
-Package pdftex.def Info: fig_glyphs_example.png  used on input line 274.
+Package pdftex.def Info: fig_glyphs_example.png  used on input line 263.
 (pdftex.def)             Requested size: 350.99762pt x 231.79341pt.
 
 
 [3 <./fig_rongo_g_washington.png>]
 File: fig_placeholder.png Graphic file (type png)
 <use fig_placeholder.png>
-Package pdftex.def Info: fig_placeholder.png  used on input line 290.
+Package pdftex.def Info: fig_placeholder.png  used on input line 287.
 (pdftex.def)             Requested size: 350.99762pt x 198.03404pt.
 
 
 [4 <./fig_glyphs_example.png>]
 
 [5]
-Underfull \hbox (badness 2837) in paragraph at lines 331--331
+Underfull \hbox (badness 2837) in paragraph at lines 333--333
 []|\T1/cmr/m/n/12 Earth Sci-ence and Ap-pli-ca-tions from
  []
 
@@ -448,21 +448,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `lrl_decipherability.out' has not changed.
-(rerunfilecheck)             Checksum: 7773D435D8CB61BF4094ABCE51CDBCF5;1520.
+(rerunfilecheck)             Checksum: ED1CAB7DAC61499BE09765A4293B8ADA;1844.
  ) 
 Here is how much of TeX's memory you used:
- 11581 strings out of 473190
- 174787 string characters out of 5715801
- 580672 words of memory out of 5000000
- 34636 multiletter control sequences out of 15000+600000
+ 11585 strings out of 473190
+ 174843 string characters out of 5715801
+ 580636 words of memory out of 5000000
+ 34638 multiletter control sequences out of 15000+600000
  573580 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1170b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,743b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on lrl_decipherability.pdf (9 pages, 4625387 bytes).
+Output written on lrl_decipherability.pdf (9 pages, 4626148 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 223 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
