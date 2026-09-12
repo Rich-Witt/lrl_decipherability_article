@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 SEP 2026 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 SEP 2026 09:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -373,10 +373,10 @@ Package hyperref Info: Link coloring ON on input line 76.
 \@outlinefile=\write4
 \openout4 = `lrl_decipherability.out'.
 
-<fig_placeholder.png, id=64, 1110.1475pt x 626.34pt>
+<fig_placeholder.png, id=120, 1110.1475pt x 626.34pt>
 File: fig_placeholder.png Graphic file (type png)
 <use fig_placeholder.png>
-Package pdftex.def Info: fig_placeholder.png  used on input line 161.
+Package pdftex.def Info: fig_placeholder.png  used on input line 172.
 (pdftex.def)             Requested size: 350.99762pt x 198.03404pt.
 
 
@@ -387,11 +387,11 @@ Package pdftex.def Info: fig_placeholder.png  used on input line 161.
 [2
 
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 193.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 205.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 193.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 205.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -400,70 +400,91 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-Overfull \hbox (4.31482pt too wide) in paragraph at lines 227--228
+Overfull \hbox (4.31482pt too wide) in paragraph at lines 238--239
 []\T1/cmr/m/n/12 In his 1958 work \T1/cmr/m/it/12 Grund-la-gen zur Entz-if-fer-ung der Os-terin-selschrift \T1/cmr/m/n/12 Barthel
  []
 
 
 
 [2]
-<fig_rongo_g_washington.png, id=114, 1495.08563pt x 366.87062pt>
+<fig_rongo_g_washington.png, id=167, 1495.08563pt x 366.87062pt>
 File: fig_rongo_g_washington.png Graphic file (type png)
 <use fig_rongo_g_washington.png>
-Package pdftex.def Info: fig_rongo_g_washington.png  used on input line 256.
+Package pdftex.def Info: fig_rongo_g_washington.png  used on input line 267.
 (pdftex.def)             Requested size: 350.99762pt x 86.12503pt.
-<fig_glyphs_example.png, id=115, 854.19125pt x 564.1075pt>
+
+
+[3]
+<fig_glyphs_example.png, id=176, 854.19125pt x 564.1075pt>
 File: fig_glyphs_example.png Graphic file (type png)
 <use fig_glyphs_example.png>
-Package pdftex.def Info: fig_glyphs_example.png  used on input line 263.
+Package pdftex.def Info: fig_glyphs_example.png  used on input line 274.
 (pdftex.def)             Requested size: 350.99762pt x 231.79341pt.
 
 
-[3 <./fig_rongo_g_washington.png>]
+[4 <./fig_rongo_g_washington.png> <./fig_glyphs_example.png>]
+<fig_9329-Linear-A-Script.jpg, id=187, 582.175pt x 692.5875pt>
+File: fig_9329-Linear-A-Script.jpg Graphic file (type jpg)
+<use fig_9329-Linear-A-Script.jpg>
+Package pdftex.def Info: fig_9329-Linear-A-Script.jpg  used on input line 296.
+(pdftex.def)             Requested size: 350.99762pt x 417.57419pt.
 
-[4 <./fig_glyphs_example.png>]
-<fig_HDBSCAN Pipeline.png, id=130, 930.47626pt x 150.5625pt>
+
+[5]
+
+[6 <./fig_9329-Linear-A-Script.jpg>]
+
+[7]
+<fig_HDBSCAN Pipeline.png, id=206, 930.47626pt x 150.5625pt>
 File: fig_HDBSCAN Pipeline.png Graphic file (type png)
 <use fig_HDBSCAN Pipeline.png>
-Package pdftex.def Info: fig_HDBSCAN Pipeline.png  used on input line 295.
+Package pdftex.def Info: fig_HDBSCAN Pipeline.png  used on input line 348.
 (pdftex.def)             Requested size: 350.99762pt x 56.79391pt.
 
 
-[5 <./fig_HDBSCAN Pipeline.png>]
-Underfull \hbox (badness 2837) in paragraph at lines 341--341
+[8 <./fig_HDBSCAN Pipeline.png>]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+Underfull \hbox (badness 2837) in paragraph at lines 472--472
 []|\T1/cmr/m/n/12 Earth Sci-ence and Ap-pli-ca-tions from
  []
 
 (./lrl_decipherability.bbl
 
-[6]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 19--21
 \T1/cmr/m/n/12 URL [][]$\T1/cmtt/m/n/12 http : / / kohaumotu . org / Rongorongo / Glyph _ Library / index .
  []
 
 )
 
-[7] (./lrl_decipherability.aux)
+[14] (./lrl_decipherability.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `lrl_decipherability.out' has not changed.
-(rerunfilecheck)             Checksum: 021DE06A663A96C2F6842BA009C00969;1915.
+(rerunfilecheck)             Checksum: 7FDB06F57993DD646236E4EF00648642;4502.
  ) 
 Here is how much of TeX's memory you used:
- 11592 strings out of 473190
- 175065 string characters out of 5715801
- 580858 words of memory out of 5000000
- 34645 multiletter control sequences out of 15000+600000
+ 11637 strings out of 473190
+ 175911 string characters out of 5715801
+ 581040 words of memory out of 5000000
+ 34668 multiletter control sequences out of 15000+600000
  573580 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,914b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on lrl_decipherability.pdf (9 pages, 4666357 bytes).
+ 75i,11n,79p,1098b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on lrl_decipherability.pdf (16 pages, 4809147 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

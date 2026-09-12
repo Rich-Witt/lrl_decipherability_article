@@ -214,6 +214,11 @@ INPUT ./fig_glyphs_example.png
 INPUT ./fig_glyphs_example.png
 INPUT ./fig_glyphs_example.png
 INPUT ./fig_glyphs_example.png
+INPUT ./fig_9329-Linear-A-Script.jpg
+INPUT ./fig_9329-Linear-A-Script.jpg
+INPUT ./fig_9329-Linear-A-Script.jpg
+INPUT ./fig_9329-Linear-A-Script.jpg
+INPUT ./fig_9329-Linear-A-Script.jpg
 INPUT ./fig_HDBSCAN Pipeline.png
 INPUT ./fig_HDBSCAN Pipeline.png
 INPUT ./fig_HDBSCAN Pipeline.png
@@ -225,6 +230,13 @@ INPUT lrl_decipherability.bbl
 INPUT lrl_decipherability.aux
 INPUT ./lrl_decipherability.out
 INPUT ./lrl_decipherability.out
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb

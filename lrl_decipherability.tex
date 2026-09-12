@@ -151,8 +151,19 @@
 \begin{abstract}
 %% Text of abstract
 
-This study investigates what information can be recovered from symbolic data such as lost languages. It compares two exploratory approaches that require no prior knowledge of the data. Machine learning clustering and information theoretic measurements. HDBSCAN is used to uncover recurring groups without predefined categories.  Information theoretic measures quantify redundancy, uncertainty, and unicity distance. 
 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+GUIDANCE:
+frame the paper as a comparative analysis between ML specific methods (HDBSCAN) and information theoretic (and statistical) methods and compare.
+
+It doesn't matter if these languages are logographic or syllabic, or alien. What I want you to focus on is on what kind of information we can extract from data that we don't know too much about (is agnostic). Assume these are dolphin languages or alien languages.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+This study investigates what information can be recovered from symbolic data such as lost languages or as yet undiscovered scripts. It compares two exploratory approaches that require no prior knowledge of the data. Machine learning clustering and information theoretic measurements. HDBSCAN is used to uncover recurring groups without predefined categories. Information theoretic measures quantify redundancy, uncertainty, and unicity distance. 
+TODO:Redraft
 
 \end{abstract}
 
@@ -163,7 +174,7 @@ This study investigates what information can be recovered from symbolic data suc
 
 %%Research highlights
 \begin{highlights}
-\item Bullet 1
+\item Bullet 1 TODO:bullets
 \item Bullet 2
 \item Bullet 3
 \end{highlights}
@@ -171,6 +182,7 @@ This study investigates what information can be recovered from symbolic data suc
 %% Keywords
 \begin{keyword}
 %% keywords here, in the form: keyword \sep keyword
+TODO: Keywords
 Keyword1 \sep keyword2 \sep keyword3 
 
 TODO: Update for new article
@@ -204,11 +216,10 @@ TODO: Update for new article
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 
-Deciphering Rongorongo, Linear A, and the Indus Valley Script would increase knowledge and understanding in archeology, anthropology, history, linguistics, astronomy and more\cite{}. Still, research has been unable to yield satisfactory decipherment of these lost scripts and basic questions such as Rongorongo's status as a writing system is still an open question\cite{}. Barthel created the now canonical transliterations for Rongorongo in 1958 \cite{}. Transliterations for Linear A and Indus Valley were provided by TODO in TODO \cite{} and TODO in TODO \cite{} respectively. 
+Understanding what information is recoverable from unknown symbolic system would increase knowledge and understanding in archeology, anthropology, history, and linguistics. Speculatively, methods used to understand lost languages or scripts could also support the initial analysis of symbolic systems associated with a hypothetical extratresserial technological artifact, such as a plaque-like inscription on a spacecraft \cite{}. Research has been unable to yield satisfactory reproducible decipherments of lost scripts and basic questions such as Rongorongo's status as a writing system is still an open question\cite{}. Our Barthel created the now canonical transliterations for Rongorongo in 1958 \cite{}. Transliterations for Linear A and Indus Valley were provided by TODO in TODO \cite{} and TODO in TODO \cite{} respectively. Over six decades of research has been unable to provide scientifically verifiable, or repeatable interpretations or decipherments of these languages. 
 
-Current research has yielded …TODO 1-2 sentence summary.
+This paper attempts to apply Natural Language Processing, Machine Learning, and information-theoretical approaches to determine if any approaches may yield favorable insight into completely unknown languages. We first determine if there is enough informational content in the corpora for theoretical decipherment to be possible using information-theoretical techniques. We then apply machine learning techniques such as HDBSCAN categorization and embeddings to uncover available insight. 
 
-This paper uses these transliterations to conduct an analysis using Natural Language Processing to provide insight on two different open questions. We first determine if there is enough informational content in the corpora for theoretical decipherment to be possible. Next we provide insight on the type of writing system for each lost language. 
 % \subsection{Outline}
 
 The remainder of this paper is structured as follows: Section~\ref{lit} describes initial and current efforts to decipher the lost scripts. Section~\ref{data} details the source transliterations used in the analysis. Section~\ref{meth} describes the methodology and rationale used to determine decipherability and writing system.  Section~\ref{anal_results} provides the analysis and results. Finally Section~\ref{discussion} discusses the results and describes potential paths for future work. 
@@ -230,7 +241,7 @@ Horley provides corrected glyphs and
 
 Jacques Guy provided the tablet detail \cite{guy_rongorongo_org} and original web resources Philip Spaelti used to create Kohaumotu.org which provides the glyph library this paper uses as input data. \cite{spaelti_2012_glyph}
 
-\subsection{}
+\subsection{Linear A}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -238,7 +249,7 @@ Jacques Guy provided the tablet detail \cite{guy_rongorongo_org} and original we
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Data}
 \label{data}
-Two distinct data sets were used for this paper. One for Rongo Rongo and one for Linear A. Rongo Rongo is the extinct script of Easter Island. Linear A is also lost script that was used on Crete during the second millennium BCE. 
+Two distinct data sets were used for this paper. One for Rongo Rongo and one for Linear A. Rongo Rongo is the extinct script of Easter Island. Linear A is also a lost script that was used on Crete during the second millennium BCE.  
 
 \subsection{Rongo Rongo}
 Data available at the \href{http://kohaumotu.org/Rongorongo/Glyph_Library/glyph_variants.html}{Rongorongo corpus (codes only)}\cite{} was used for all analysis of Rongo Rongo. This site relies on the work initially recorded by Barthel in 1958 \cite{} which as been assembled in to an impressive interactive website greatly aiding in the understanding of Rongo Rongo glyphs. This paper relies on the accuracy of transliterations from this prior work. 
@@ -265,30 +276,72 @@ and \texttt{001} represents both variants
 \label{fig_glyphs_example}
 \end{figure}
 
+Written in serpentine order sequenced in this order. TODO: consider left to right and right to left for both.  does it matter?  Could just say we assume temporality and were able to observe the message.  this would not be the case in a alien society reading our space craft plates. 
 \subsection{Linear A}
+A logosyllabic writing system
+Written left to right, but some right to left and sometimes boustrophedon. In boustrophedon alternate lines of writing are reversed similar in directionality as an ox turns whiel plowing. \cite{}
+%  (βοῦς, στροφή, βουστροφηδόν. Liddell, Henry George; Scott, Robert; A Greek–English Lexicon at the Perseus Project
 
+ Emma Bennett created a signory and numbering system in 1964 \cite{}
+% Bennett, E. L. Jr., "Mycenaean Studies Proceedings of the Third International Colloquium for Mycenaean Studies held at 'Wingspread', 4—8 September 1961", ed. Madison: University of Wisconsin Press, 1964
+
+The entire linear A corpus contains around 1400 inscriptions with 7400 symbols. An additional 1100 objects are too poorly preserved to be readable and are not counted as part of this corpus.\cite{}
+% Salgarella, Ester (2025). Writing in Bronze Age Crete: "Minoan" Linear A. Cambridge University Press. ISBN 9781009520027.
+
+Most Linear A writing has been found on the island of Crete and the Aegean islands for place and religious writings. The artifacts were written on clay, stone, gold, jewelry, and pottery.  \cite{}
+% Salgarella, Ester (2025). Writing in Bronze Age Crete: "Minoan" Linear A. Cambridge University Press. ISBN 9781009520027.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{fig_9329-Linear-A-Script.jpg}
+\caption{\textbf{Minoan clay tablet.} Clay tablet on display at the Archaeological Museam of Heraklion inscribed with Linear A. Image credit: Ester Salgarella.}
+\label{fig_linear-A-Script}
+\end{figure}
+
+The data used in this paper was sourced directly from Robert Hogan's Linear A Explorer which is a visulaizaiton tool for exploring the Linear A Language. \cite{}
+https://lineara.xyz/
+
+The Linear A Explorer uses images and transcriptions from Luis Godart and Jean-Pierre Olivier \cite{}
+% [Louis Godart and Jean-Pierre Olivier](https://bit.ly/2H6Ohwe) in 1970 and of the 
+as well as the tabulations by George Douros. \cite{}
+\cite{}
+% [tabulation and interpretation of the inscriptions by George Douros](http://users.teilar.gr/~g1951d/).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Methodology and rationale 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Methodology and rationale}
+\section{Methodology and Rationale}
 \label{meth}
 We apply a machine learning clustering pipeline centered around an HDBSCAN model and information-theoretic techniques as complementary methods. HDBSCAN attempts to group data points into separable clusters by evaluating multivariate similarity among informational features. HDBSCAN is especially useful in unknown languages since it creates separation without requiring labels or a predetermined number of clusters. Information-theoretic measures summarize corpus properties such as uncertainty, redundancy, and properties relevant to decipherability. Shannon entropy measure the uncertainty in the distribution while redundancy reflects predictable or repeatable structure. Both approaches distinguish patterns that can be inferred from the data without linguistic or archeological interpretations. 
 
+Data transformation techniques used in this paper require the symbols of both the Rongorongo and Linear A scripts to be analyzed as individual symbols (uni-grams) and sequences of symbols (n-grams). When a technique or data processing stage uses both uni-grams and n-grams we refer to them collectively as observations.
 
- 
+\subsection{Data Preparation}
+\subsubsection{Tokenization} *** NOT IN CODE YET ***
+Each individual symbol was tokenized by simple indexing. Each visibly atomic symbol identified by prior research such as \cite{} \cite{} \cite{} is assumed to be the atomic element of information or symbol. Each symbol is simply a distinct indexed item such as 001 for Rongorongo or *** INSERT COOL glyph *** in the case of Linear A. 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-frame the paper as a comparative analysis between ML specific methods (HDBSCAN) and information theoretic (and statistical) methods and compare.
+\subsubsection{Sequence Construction}
+TODO: Reference why this is used in cryptoanalysis and why it might apply here. 
+Each corpus is sequenced as one long single sequence. No boundary or gap tokens are used as these would require an assumption of knowledge on the underlying structure of the communication. This places empty spaces on the same informational level as symbols.
+Let the resulting ordered token sequence be
+\[
+X = (x_1,x_2,\ldots,x_L),
+\]where \(L\) is the number of tokens in the corpus.
 
-It doesn't matter if these languages are logographic or syllabic, or alien. What I want you to focus on is on what kind of information we can extract from data that we don't know too much about (is agnostic). Assume these are dolphin languages or alien languages.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Frequency Rank Normalization} *** NOT IN CODE YET ***
+Each corpus is frequency rank normalized independently before the corpora are merged. Let \(\mathcal{S}_c\) denote the set of observed symbols in corpus \(c\), with corpus frequency \(f_c(s)\) calculated. Signs are then ordered from most to least frequent. Tied frequencies are assigned their mean rank.
 
+Since the corpora contain different numbers of symbols, ranks are normalized with:
+\[
+\rho_c(s)=\frac{r_c(s)-1}{|\mathcal{S}_c|-1},
+\]
+where \(r_c(s)\) is the frequency rank of 
+symbol \(\left|\mathcal{S}_c\right|\). \(\rho_c(s)=0\) represents the most frequent sign, while values approaching \(1\) represent increasingly rare signs.
+
+Frequency rank normalization removes sign identity and gives the two scripts a shared feature space. This shared feature space allows HDBSCAN to compare patterns of relative symbol frequency and prevents the algorithm from separating the corpora merely based on different symbol inventories. 
 
 \subsection{Machine Learning with HDBSCAN}
-HDBSCAN pipeline consists of seven separate stages. Corpus Ingestion, TF-IDF Vectorization and UMAP Dimensionality Reduction prepare the data for the HDBSCAN algorithm. The HDBSCAN algorithm analyzes the data to form groups by evaluating the relative density and proximity of the data points. Topic extraction supports interpretation of resulting clusters and 3D Projection prepares the HDBSCAN output for 3 dimensional visualization. Each step of the process is described in the following paragraphs.
-
-
+HDBSCAN pipeline consists of seven separate stages. Corpus Ingestion, TF-IDF Vectorization and UMAP Dimensionality Reduction prepare the data for the HDBSCAN algorithm. The HDBSCAN algorithm analyzes the data to form groups by evaluating the relative density and proximity of the data points. Topic extraction supports interpretation of resulting clusters and 3D Projection prepares the HDBSCAN output for 3 dimensional visualization. The following paragraphs describe each step of the process.
 
 \begin{figure}[H]
 \centering
@@ -297,13 +350,87 @@ HDBSCAN pipeline consists of seven separate stages. Corpus Ingestion, TF-IDF Vec
 \label{fig_HDBSCAN_pipeline}
 \end{figure}
 
+\subsubsection{Corpus Ingestion}
+Rongorongo and Linear A transcriptions are ingested into the pipeline and merged into a single document collection.  Source identities are kept for subsequent evaluation and visualization but are not used to guide clustering or other algorithms. 
 
+\subsubsection{Vectorization}
+Each observed symbol is converted into a vector based on uni-gram and bi-gram features using TF-IDF.  Vectorization was restricted to bi-grams due to the relatively low amount of data available in order to ensure *** JUSTIFY it kept erroring somehow ***..  TF-IDF emphasizes terms that are important in the sequence of text yet relatively uncommon in the corpus.  
+
+\subsubsection{Dimensioality Reduction}
+Dimensionality reduction was performed using the UMAP algorithm. This reduces the high dimensionality resulting from the TF-IDF vectorization into 42 dimensions *** JUSTIFY ***. Cosine distance was chosen because it compensates for document size by length normalizing the vectors to unit vectors. 
+
+\subsubsection{HDBSCAN Clustering}
+Clustering is performed by HDBSCAN. The algorithm searches the 42-dimensional space for stable regions of high density. HDBSCAN was chosen because it does not require the number of clusters to be selected before hand. A minimum cluster size of 50 *** JUSTIFY *** was used. Once the model identifies the stable regions of high density is assigns each symbol or sequence of symbols to a stable cluster. If the observation is not a fit for one of the clusters it is labeled as noise. 
+
+\subsubsection{Topic Extraction}
+Each cluster is then labeled with a topic using the five terms with the greatest TF-IDF weight among it's observations. This helps identify the symbols or sequences of symbols best represent the cluster. 
+
+\subsubsection{3D Projection}
+In order to display the 42 dimensions used to cluster the symbols in human readable form UMAP was once again used for dimensionality reduction. The 42 dimensions projected onto a 3-dimensional space superimpose the higher dimensional space. As a consequence the displayed coordinates are illustrative and are not the actual space used for clustering.
+
+\subsubsection{Interactive Visualization}
+The visualization shown is a static representation of a interactive visualization that can be used to display the observations by cluster, characteristic terms, and a preview of the corresponding observation. 
 
 \subsection{Information Theoretical}
-Entropy
-Unicity Distance
-\subsection{Statistical}
-TODO
+The informaiton theoretical pipline starts with raw data as defined in \ref{data}. n-grams of orders 1-4 ***JUSTIFY*** are prepared from this raw data. Each data set is analyzed from an frequency, 
+
+\subsubsection{N-gram Construction}
+Overlapping \(n\)-grams were generated for \(n \in \{1,2,3,4\}\). The \(i\)-th \(n\)-gram is defined as
+\[
+g_i^{(n)} = (x_i,x_{i+1},\ldots,x_{i+n-1})
+\]
+where where \(x_i\) denotes the token at position \(i\) in a sequence of length \(L\), and \(i \in \{1,\ldots,L-n+1\}\).
+
+The tokens in each \(n\)-gram were joined with hyphens providing a serialized representation of each sequence. 
+
+\subsubsection{Frequency estimation}
+Post n-gram construction frequency estimation is once again employed. For each value of \(n\), the the count, \(c\), of every distinct n-gram is calculated. If \(c_j\) is the frequency of the \(j\)-th distinct n-gram then its probability of occurrence is estimated with 
+\[
+p_j = \frac{c_j}{T_n}.
+\]
+Where \(T_n\) is the total number of all \(n\)-grams in the set.
+
+If we let \(K_n\) is the number of distinct \(n\)-grams then corpus diversity can be summarized calculating the proportion of unique observations for each \(n-gram\) set
+\[
+Q_n = \frac{K_n}{T_n}.
+\]
+resulting in a set of proportions between 0 and 1 with higher values of \(Q_n\) indicating more rare occurrences of that \(n-gram\) sequence and lower values indicating higher repetition. 
+
+\subsubsection{Entropy and Redundancy}
+The Shannon entropy of each \(n-gram\) set was calculated in bits using methods outlined in \cite{}
+\[
+H_n = -\sum_{j=1}^{K_n} p_j \log_2 p_j.
+\]
+The max potential entropy in the \(n-gram\) set is defined as the entropy of a uniform distribution containing the same number of distinct symbols: 
+\[
+H_{n,\max} = \log_2 K_n.
+\]
+Normalized redundancy was calculated by first calculating absolute redundancy:
+\[
+D_n = H_{n,\max}-H_n,
+\] and dividing by the maximum possible redundancy:
+\[
+R_n(D_n)=\frac{D_n}{H_{n,\max}}
+\]
+In this way \(D_n\) measures the redundancy as departures from uniformity in bits per \(n\)-gram and \(R_n\) shows the same departure from uniformity as a proportion of maximum entropy following the work of \cite{}. 
+
+\subsubsection{Keyspace, Unicity Distance and Theoretical Decipherability Margin}
+Possible key space and unicity distance are calculated to determine if the set of \(n\)-grams contains enough information to make a theoretical decipherment possible. 
+
+A key space is the set of all possible keys in a cypher model. In this model the key space is all possible permutations of the \(n-gram\) sets and is calculated 
+\[
+|\mathcal{K}_n| = K_n!,
+\]and the corresponding key-space size in bits is
+\[
+B_n = \log_2(K_n!).
+\]
+Observed unicity distance for the \(n-gram\) set is then calculated by 
+\[
+U_n = \frac{B_n}{D_n}.
+\]
+The resulting values from the unicity distance calculation estimates the number of \(n-gram\) observations required for redundancy to overcome uncertainty in the substitution key and contain enough information to identify a unique mapping. 
+
+Finally the theoretical decipherability margin was calculated by subtracting the unicity distance \(U_n\) from the total number of \(n-grams\) \(T_n\) in the set. A positive margin indicates the corpus, as sequenced \(n-gram\) sets, is estimated to contain sufficient information to identify the key as unique. It therefore indicates informational-theoretic decipherability. It does not guarantee the key can be recovered computationally, but that it is possible to be accomplished given the assumptions inherent in the data preparation. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % results
@@ -319,6 +446,10 @@ TODO
 
 The methods in this paper cannot decipher the meaning or linguistic composition of an unknown symbolic system. Instead they determine if the available data contain non-random regularities and what scale those regularities happen. It can also be used to determine if the corpus is of sufficient size and non-random enough to support more specific analysis. 
 
+May be worth attempting to read un-readable Linear A scripts since the only \(1-gram\) set has enough information to be theoretically decipherable. Since the Linear A script is known to have complex symbols combined via ligature \cite{} 
+% Tomas, Helena (2012). "Cretan Hieroglyphic and Linear A". In Cline, Eric (ed.). The Oxford Handbook of the Bronze Age Aegean. Oxford University Press. pp. 113–125. doi:10.1093/oxfordhb/9780199873609.013.0026. ISBN 978-0199873609.
+
+it is likely the true decipherablility requires more information than the \(1-gram\) sequense implies. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % appendix
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
