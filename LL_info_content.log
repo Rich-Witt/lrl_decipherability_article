@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 SEP 2026 09:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 SEP 2026 11:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/lrl_decipherability.tex
-(/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/lrl_decipherability.tex
+**/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/LL_info_content.tex
+(/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/LL_info_content.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/elsarticle/elsarticle.cls
@@ -78,7 +78,7 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \@enLab=\toks19
 \@sep=\skip51
 \@@sep=\skip52
- (./lrl_decipherability.spl) (/usr/local/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty
+ (./LL_info_content.spl) (/usr/local/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip53
 \bibsep=\skip54
@@ -86,7 +86,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count278
 )
 \splwrite=\write3
-\openout3 = `lrl_decipherability.spl'.
+\openout3 = `LL_info_content.spl'.
 
 \appnamewidth=\dimen148
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -328,8 +328,8 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count306
 \@lastruleclass=\count307
 \@thisrulewidth=\dimen176
-) (./lrl_decipherability.aux)
-\openout1 = `lrl_decipherability.aux'.
+) (./LL_info_content.aux)
+\openout1 = `LL_info_content.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
@@ -369,9 +369,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 76.
- (./lrl_decipherability.out) (./lrl_decipherability.out)
+ (./LL_info_content.out) (./LL_info_content.out)
 \@outlinefile=\write4
-\openout4 = `lrl_decipherability.out'.
+\openout4 = `LL_info_content.out'.
 
 <fig_placeholder.png, id=120, 1110.1475pt x 626.34pt>
 File: fig_placeholder.png Graphic file (type png)
@@ -455,7 +455,7 @@ Underfull \hbox (badness 2837) in paragraph at lines 472--472
 []|\T1/cmr/m/n/12 Earth Sci-ence and Ap-pli-ca-tions from
  []
 
-(./lrl_decipherability.bbl
+(./LL_info_content.bbl
 
 [13]
 Underfull \hbox (badness 10000) in paragraph at lines 19--21
@@ -464,24 +464,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
 )
 
-[14] (./lrl_decipherability.aux)
+[14] (./LL_info_content.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `lrl_decipherability.out' has not changed.
+Package rerunfilecheck Info: File `LL_info_content.out' has not changed.
 (rerunfilecheck)             Checksum: 7FDB06F57993DD646236E4EF00648642;4502.
  ) 
 Here is how much of TeX's memory you used:
  11637 strings out of 473190
- 175911 string characters out of 5715801
- 581040 words of memory out of 5000000
+ 175795 string characters out of 5715801
+ 581016 words of memory out of 5000000
  34668 multiletter control sequences out of 15000+600000
  573580 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1098b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1094b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on lrl_decipherability.pdf (16 pages, 4809147 bytes).
+Output written on LL_info_content.pdf (16 pages, 4809147 bytes).
 PDF statistics:
  352 PDF objects out of 1000 (max. 8388607)
  281 compressed objects within 3 object streams
