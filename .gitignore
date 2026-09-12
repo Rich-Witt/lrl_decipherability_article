@@ -1,0 +1,44 @@
+# Instructions:
+# Please make sure that you follow the rules correctly to avoid accidentally
+# committing unwanted files or excluding files that should be tracked.
+# This is expecially important for instances where 
+# 
+# Quick reference:
+#   *        matches anything except '/' — stays within one directory level
+#   **       matches across directory levels (zero or more directories)
+#   ?        matches exactly one character (except '/')
+#   [abc]    matches any ONE character in the set: a, b, or c
+#   [a-z]    matches any ONE character in the range a through z
+#   !        negates/re-includes a pattern
+#   /prefix  anchors to this directory
+#   suffix/  matches directories only
+#
+# Order matters: rules are evaluated top to bottom, last match wins.
+# A negation (!) must come AFTER the pattern it's meant to override.
+#
+# WARNING: if a DIRECTORY is ignored (e.g. build/), Git never looks
+# inside it — no negation below can un-ignore files within it, no
+# matter where it's placed. To keep specific files, exclude the
+# directory's CONTENTS instead:
+#   build/*
+#   !build/keep.txt
+# ...rather than ignoring the directory itself:
+#   build/          <- negations below this can't reach inside
+#
+# CASE SENSITIVITY: patterns are case-sensitive on Linux (default
+# filesystems), but effectively case-INsensitive on macOS and Windows
+# (case-insensitive filesystems by default). A pattern like Build/
+# won't match build/ on Linux but will on Mac/Windows — always match
+# the exact case of the real file/folder name to avoid cross-platform
+# surprises (e.g. a rule that works locally but fails on Linux CI).
+#
+# Examples:
+#   debug?.log    matches debug1.log, debugA.log — not debug10.log
+#   [Dd]ebug/     matches Debug/ or debug/
+#
+# Full syntax: https://git-scm.com/docs/gitignore
+
+# Ignore anything not meant to be in the article
+/data
+/src
+/docs
