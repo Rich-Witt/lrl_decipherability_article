@@ -3,52 +3,54 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: LL_info_content.aux
 The style file: elsarticle-num.bst
 Database file #1: master.bib
-Warning--entry type for "spaelti_2012_glyph" isn't style-file defined
---line 10 of file master.bib
 Warning--entry type for "guy_rongorongo_org" isn't style-file defined
---line 19 of file master.bib
+--line 579 of file master.bib
+Warning--entry type for "spaelti_2012_glyph" isn't style-file defined
+--line 725 of file master.bib
 Warning--I didn't find a database entry for ""
+Warning--empty journal in yadav2010_indus_ngrams
 Warning--empty publisher in englert1948diccionario
 Warning--empty year in spaelti_2012_glyph
-You've used 4 entries,
+Warning--empty year in Academies_decadal
+You've used 13 entries,
             2978 wiz_defined-function locations,
-            693 strings with 5620 characters,
-and the built_in function-call counts, 882 in all, are:
-= -- 69
-> -- 16
+            746 strings with 7265 characters,
+and the built_in function-call counts, 3043 in all, are:
+= -- 276
+> -- 79
 < -- 0
-+ -- 8
-- -- 4
-* -- 36
-:= -- 125
-add.period$ -- 4
-call.type$ -- 4
-change.case$ -- 4
++ -- 33
+- -- 20
+* -- 154
+:= -- 413
+add.period$ -- 16
+call.type$ -- 13
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 32
-empty$ -- 130
-format.name$ -- 4
-if$ -- 243
+cite$ -- 17
+duplicate$ -- 103
+empty$ -- 406
+format.name$ -- 23
+if$ -- 841
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 4
-newline$ -- 22
-num.names$ -- 4
-pop$ -- 39
+int.to.str$ -- 13
+missing$ -- 11
+newline$ -- 55
+num.names$ -- 13
+pop$ -- 116
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 67
+skip$ -- 224
 stack$ -- 0
-substring$ -- 4
-swap$ -- 3
+substring$ -- 33
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 4
-width$ -- 5
-write$ -- 38
-(There were 5 warnings)
+warning$ -- 4
+while$ -- 15
+width$ -- 15
+write$ -- 117
+(There were 7 warnings)

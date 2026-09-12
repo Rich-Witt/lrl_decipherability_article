@@ -226,7 +226,7 @@ TODO: Update for new article
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 
-Understanding what information is recoverable from unknown symbolic system would increase knowledge and understanding in archeology, anthropology, history, and linguistics. Speculatively, methods used to understand lost languages or scripts could also support the initial analysis of symbolic systems associated with a hypothetical extratresserial technological artifact, such as a plaque-like inscription on a spacecraft \cite{}. Research has been unable to yield satisfactory reproducible decipherments of lost scripts and basic questions such as Rongorongo's status as a writing system is still an open question\cite{}. Our Barthel created the now canonical transliterations for Rongorongo in 1958 \cite{}. Transliterations for Linear A and Indus Valley were provided by TODO in TODO \cite{} and TODO in TODO \cite{} respectively. Over six decades of research has been unable to provide scientifically verifiable, or repeatable interpretations or decipherments of these languages. 
+Understanding what information is recoverable from unknown symbolic system would increase knowledge and understanding in archeology, anthropology, history, and linguistics. Speculatively, methods used to understand lost languages or scripts could also support the initial analysis of symbolic systems associated with a hypothetical extratresserial technological artifact, such as a plaque-like inscription on a spacecraft \cite{}. Research has been unable to yield satisfactory reproducible decipherments of lost scripts and basic questions such as Rongorongo's status as a writing system is still an open question\cite{tamburini2025_automatic_decipherment}. Our Barthel created the now canonical transliterations for Rongorongo in 1958 \cite{barthel1958grundlagen}. Transliterations for Linear A and Indus Valley were provided by TODO in TODO \cite{salgarella2021_sigla} and TODO in TODO \cite{yadav2010_indus_ngrams} respectively. Over six decades of research has been unable to provide scientifically verifiable, or repeatable interpretations or decipherments of these languages. 
 
 This paper attempts to apply Natural Language Processing, Machine Learning, and information-theoretical approaches to determine if any approaches may yield favorable insight into completely unknown languages. We first determine if there is enough informational content in the corpora for theoretical decipherment to be possible using information-theoretical techniques. We then apply machine learning techniques such as HDBSCAN categorization and embeddings to uncover available insight. 
 
@@ -241,7 +241,7 @@ Efforts to translate and decipher have spanned centuries. Rapa Nui is still the 
 
 Father Sebastian Englebert creates Rapa Nui to Spanish Dictionary in 1938, translated to spanish in and updated in 1978.\cite{englert1948diccionario}
 
-Rapa Nui to Spanish \cite{}
+Rapa Nui to Spanish \cite{englert1948diccionario}
 
 In his 1958 work \emph{Grundlagen zur Entzifferung der Osterinselschrift} Barthel created the alphanumeric cataloging system and transliterations from glyph to alpha numeric characters \cite{barthel1958grundlagen}. 
 
@@ -257,14 +257,14 @@ Jacques Guy provided the tablet detail \cite{guy_rongorongo_org} and original we
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Data}
 \label{data}
-Two distinct data sets were used for this paper. One for Rongo Rongo and one for Linear A. Rongo Rongo is the extinct script of Easter Island. Linear A is also a lost script that was used on Crete during the second millennium BCE.  
+Two distinct data sets were used for this paper. One for Rongo Rongo and one for Linear A. Rongo Rongo is the extinct script of Easter Island \cite{fischer1997rongorongo}. Linear A is also a lost script that was used on Crete during the second millennium BCE \cite{salgarella2021_sigla}.  
 
 \subsection{Rongo Rongo}
-Data available at the \href{http://kohaumotu.org/Rongorongo/Glyph_Library/glyph_variants.html}{Rongorongo corpus (codes only)}\cite{} was used for all analysis of Rongo Rongo. This site relies on the work initially recorded by Barthel in 1958 \cite{} which as been assembled in to an impressive interactive website greatly aiding in the understanding of Rongo Rongo glyphs. This paper relies on the accuracy of transliterations from this prior work. 
+Data available at the \href{http://kohaumotu.org/Rongorongo/Glyph_Library/glyph_variants.html}{Rongorongo corpus (codes only)}\cite{spaelti_2012_glyph} was used for all analysis of Rongo Rongo. This site relies on the work initially recorded by Barthel in 1958 \cite{barthel1958grundlagen} which as been assembled in to an impressive interactive website greatly aiding in the understanding of Rongo Rongo glyphs. This paper relies on the accuracy of transliterations from this prior work. 
 
-The Rongo Rongo corpus consists of 26 Tablets Coded A though Z and retrieved from \href{http://kohaumotu.org/Rongorongo_new/views/codes_only.php}{the Kohaumotu Rongorongo codes page}. The updated 3 character glyph codes were used to create an encoding library of all encodings. Instead of using the glyphs themselves we rely directly on the index created by Barthel to represent a manual encoding of glyphs.
+The Rongo Rongo corpus consists of 26 Tablets Coded A though Z and retrieved from \href{http://kohaumotu.org/Rongorongo_new/views/codes_only.php}{the Kohaumotu Rongorongo codes page} \cite{spaelti_2012_glyph}. The updated 3 character glyph codes were used to create an encoding library of all encodings. Instead of using the glyphs themselves we rely directly on the index created by Barthel to represent a manual encoding of glyphs \cite{barthel1958grundlagen}.
 
-The glyphs are numbered in a systematic manner. Each row is intended to categorize the glyphs with Row 0 containing the simplest forms while higher rows increase in complexity. While only 90 rows are shown 799 total rows were categorized by Barthel and avaliable in \cite{} and in the Kohaumotu.org website. \cite{}.
+The glyphs are numbered in a systematic manner. Each row is intended to categorize the glyphs with Row 0 containing the simplest forms while higher rows increase in complexity. While only 90 rows are shown 799 total rows were categorized by Barthel and avaliable in \cite{barthel1958grundlagen} and in the Kohaumotu.org website. \cite{spaelti_2012_glyph}.
 
 To create the index used in this analysis the row and column are concatenated to result in the three digit index used.
 In this manner \texttt{000} represents the blank space in the upper left. 
@@ -286,7 +286,7 @@ and \texttt{001} represents both variants
 
 Written in serpentine order sequenced in this order. TODO: consider left to right and right to left for both.  does it matter?  Could just say we assume temporality and were able to observe the message.  this would not be the case in a alien society reading our space craft plates. 
 \subsection{Linear A}
-A logosyllabic writing system
+A logosyllabic writing system \cite{salgarella2021_sigla}
 Written left to right, but some right to left and sometimes boustrophedon. In boustrophedon alternate lines of writing are reversed similar in directionality as an ox turns whiel plowing. \cite{}
 %  (βοῦς, στροφή, βουστροφηδόν. Liddell, Henry George; Scott, Robert; A Greek–English Lexicon at the Perseus Project
 
@@ -306,12 +306,12 @@ Most Linear A writing has been found on the island of Crete and the Aegean islan
 \label{fig_linear-A-Script}
 \end{figure}
 
-The data used in this paper was sourced directly from Robert Hogan's Linear A Explorer which is a visulaizaiton tool for exploring the Linear A Language. \cite{}
+The data used in this paper was sourced directly from Robert Hogan's Linear A Explorer which is a visulaizaiton tool for exploring the Linear A Language. \cite{karajgikar2025_linear_a}
 https://lineara.xyz/
 
-The Linear A Explorer uses images and transcriptions from Luis Godart and Jean-Pierre Olivier \cite{}
+The Linear A Explorer uses images and transcriptions from Luis Godart and Jean-Pierre Olivier \cite{salgarella2021_sigla}
 % [Louis Godart and Jean-Pierre Olivier](https://bit.ly/2H6Ohwe) in 1970 and of the 
-as well as the tabulations by George Douros. \cite{}
+as well as the tabulations by George Douros. \cite{karajgikar2025_linear_a}
 \cite{}
 % [tabulation and interpretation of the inscriptions by George Douros](http://users.teilar.gr/~g1951d/).
 
@@ -320,13 +320,13 @@ as well as the tabulations by George Douros. \cite{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Methodology and Rationale}
 \label{meth}
-We apply a machine learning clustering pipeline centered around an HDBSCAN model and information-theoretic techniques as complementary methods. HDBSCAN attempts to group data points into separable clusters by evaluating multivariate similarity among informational features. HDBSCAN is especially useful in unknown languages since it creates separation without requiring labels or a predetermined number of clusters. Information-theoretic measures summarize corpus properties such as uncertainty, redundancy, and properties relevant to decipherability. Shannon entropy measure the uncertainty in the distribution while redundancy reflects predictable or repeatable structure. Both approaches distinguish patterns that can be inferred from the data without linguistic or archeological interpretations. 
+We apply a machine learning clustering pipeline centered around an HDBSCAN model and information-theoretic techniques as complementary methods. HDBSCAN attempts to group data points into separable clusters by evaluating multivariate similarity among informational features. HDBSCAN is especially useful in unknown languages since it creates separation without requiring labels or a predetermined number of clusters. Information-theoretic measures summarize corpus properties such as uncertainty, redundancy, and properties relevant to decipherability. Shannon entropy measure the uncertainty in the distribution while redundancy reflects predictable or repeatable structure \cite{shannon1945_mathematical_cryptography}. Both approaches distinguish patterns that can be inferred from the data without linguistic or archeological interpretations. 
 
 Data transformation techniques used in this paper require the symbols of both the Rongorongo and Linear A scripts to be analyzed as individual symbols (uni-grams) and sequences of symbols (n-grams). When a technique or data processing stage uses both uni-grams and n-grams we refer to them collectively as observations.
 
 \subsection{Data Preparation}
 \subsubsection{Tokenization} *** NOT IN CODE YET ***
-Each individual symbol was tokenized by simple indexing. Each visibly atomic symbol identified by prior research such as \cite{} \cite{} \cite{} is assumed to be the atomic element of information or symbol. Each symbol is simply a distinct indexed item such as 001 for Rongorongo or *** INSERT COOL glyph *** in the case of Linear A. 
+Each individual symbol was tokenized by simple indexing. Each visibly atomic symbol identified by prior research such as \cite{barthel1958grundlagen} \cite{salgarella2021_sigla} \cite{yadav2010_indus_ngrams} is assumed to be the atomic element of information or symbol. Each symbol is simply a distinct indexed item such as 001 for Rongorongo or *** INSERT COOL glyph *** in the case of Linear A. 
 
 \subsubsection{Sequence Construction}
 TODO: Reference why this is used in cryptoanalysis and why it might apply here. 
@@ -362,10 +362,10 @@ HDBSCAN pipeline consists of seven separate stages. Corpus Ingestion, TF-IDF Vec
 Rongorongo and Linear A transcriptions are ingested into the pipeline and merged into a single document collection.  Source identities are kept for subsequent evaluation and visualization but are not used to guide clustering or other algorithms. 
 
 \subsubsection{Vectorization}
-Each observed symbol is converted into a vector based on uni-gram and bi-gram features using TF-IDF.  Vectorization was restricted to bi-grams due to the relatively low amount of data available in order to ensure *** JUSTIFY it kept erroring somehow ***..  TF-IDF emphasizes terms that are important in the sequence of text yet relatively uncommon in the corpus.  
+Each observed symbol is converted into a vector based on uni-gram and bi-gram features using TF-IDF.  Vectorization was restricted to bi-grams due to the relatively low amount of data available in order to ensure *** JUSTIFY it kept erroring somehow ***..  TF-IDF emphasizes terms that are important in the sequence of text yet relatively uncommon in the corpus \cite{manning2008_introduction_ir}.  
 
 \subsubsection{Dimensioality Reduction}
-Dimensionality reduction was performed using the UMAP algorithm. This reduces the high dimensionality resulting from the TF-IDF vectorization into 42 dimensions *** JUSTIFY ***. Cosine distance was chosen because it compensates for document size by length normalizing the vectors to unit vectors. 
+Dimensionality reduction was performed using the UMAP algorithm. This reduces the high dimensionality resulting from the TF-IDF vectorization into 42 dimensions *** JUSTIFY ***. Cosine distance was chosen because it compensates for document size by length normalizing the vectors to unit vectors \cite{manning2008_introduction_ir}. 
 
 \subsubsection{HDBSCAN Clustering}
 Clustering is performed by HDBSCAN. The algorithm searches the 42-dimensional space for stable regions of high density. HDBSCAN was chosen because it does not require the number of clusters to be selected before hand. A minimum cluster size of 50 *** JUSTIFY *** was used. Once the model identifies the stable regions of high density is assigns each symbol or sequence of symbols to a stable cluster. If the observation is not a fit for one of the clusters it is labeled as noise. 
@@ -405,7 +405,7 @@ Q_n = \frac{K_n}{T_n}.
 resulting in a set of proportions between 0 and 1 with higher values of \(Q_n\) indicating more rare occurrences of that \(n-gram\) sequence and lower values indicating higher repetition. 
 
 \subsubsection{Entropy and Redundancy}
-The Shannon entropy of each \(n-gram\) set was calculated in bits using methods outlined in \cite{}
+The Shannon entropy of each \(n-gram\) set was calculated in bits using methods outlined in \cite{shannon1949_communication_secrecy}
 \[
 H_n = -\sum_{j=1}^{K_n} p_j \log_2 p_j.
 \]
@@ -420,7 +420,7 @@ D_n = H_{n,\max}-H_n,
 \[
 R_n(D_n)=\frac{D_n}{H_{n,\max}}
 \]
-In this way \(D_n\) measures the redundancy as departures from uniformity in bits per \(n\)-gram and \(R_n\) shows the same departure from uniformity as a proportion of maximum entropy following the work of \cite{}. 
+In this way \(D_n\) measures the redundancy as departures from uniformity in bits per \(n\)-gram and \(R_n\) shows the same departure from uniformity as a proportion of maximum entropy following the work of \cite{shannon1945_mathematical_cryptography}. 
 
 \subsubsection{Keyspace, Unicity Distance and Theoretical Decipherability Margin}
 Possible key space and unicity distance are calculated to determine if the set of \(n\)-grams contains enough information to make a theoretical decipherment possible. 
@@ -436,7 +436,7 @@ Observed unicity distance for the \(n-gram\) set is then calculated by
 \[
 U_n = \frac{B_n}{D_n}.
 \]
-The resulting values from the unicity distance calculation estimates the number of \(n-gram\) observations required for redundancy to overcome uncertainty in the substitution key and contain enough information to identify a unique mapping. 
+The resulting values from the unicity distance calculation estimates the number of \(n-gram\) observations required for redundancy to overcome uncertainty in the substitution key and contain enough information to identify a unique mapping \cite{shannon1949_communication_secrecy}. 
 
 Finally the theoretical decipherability margin was calculated by subtracting the unicity distance \(U_n\) from the total number of \(n-grams\) \(T_n\) in the set. A positive margin indicates the corpus, as sequenced \(n-gram\) sets, is estimated to contain sufficient information to identify the key as unique. It therefore indicates informational-theoretic decipherability. It does not guarantee the key can be recovered computationally, but that it is possible to be accomplished given the assumptions inherent in the data preparation. 
 
@@ -454,7 +454,7 @@ TODO
 
 The methods in this paper cannot decipher the meaning or linguistic composition of an unknown symbolic system. Instead they determine if the available data contain non-random regularities and what scale those regularities happen. It can also be used to determine if the corpus is of sufficient size and non-random enough to support more specific analysis. 
 
-May be worth attempting to read un-readable Linear A scripts since the only \(1-gram\) set has enough information to be theoretically decipherable. Since the Linear A script is known to have complex symbols combined via ligature \cite{} 
+May be worth attempting to read un-readable Linear A scripts since the only \(1-gram\) set has enough information to be theoretically decipherable. Since the Linear A script is known to have complex symbols combined via ligature \cite{salgarella2021_sigla} 
 % Tomas, Helena (2012). "Cretan Hieroglyphic and Linear A". In Cline, Eric (ed.). The Oxford Handbook of the Bronze Age Aegean. Oxford University Press. pp. 113–125. doi:10.1093/oxfordhb/9780199873609.013.0026. ISBN 978-0199873609.
 
 it is likely the true decipherablility requires more information than the \(1-gram\) sequense implies. 
@@ -479,7 +479,7 @@ it is likely the true decipherablility requires more information than the \(1-gr
  \rowcolor[gray]{0.97}
  2007 & Earth Science and Applications from Space: National Imperatives for the Next Decade and Beyond & Earth Science \\
 \end{tabular}
-\caption{Decadal Surveys Used in Analysis }\label{tab:Decadals_used}
+\caption{Decadal Surveys Used in Analysis \cite{Academies_decadal}}\label{tab:Decadals_used}
 \end{table}
 
 \section{TODO2}

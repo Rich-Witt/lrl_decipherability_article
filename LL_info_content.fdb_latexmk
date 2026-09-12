@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex LL_info_content"] 1789232887.8432 "LL_info_content.aux" "LL_info_content.bbl" "LL_info_content" 1789232888.87448 0
+["bibtex LL_info_content"] 1789249627.18361 "LL_info_content.aux" "LL_info_content.bbl" "LL_info_content" 1789249628.21329 0
   "./elsarticle-num.bst" 1777719431.60724 29705 24aacf83364480458e00d81ae23af260 ""
-  "./master.bib" 1785101490.74269 33669 0fedc3f2836f4b9acc85e38013d31993 ""
-  "LL_info_content.aux" 1789232888.67971 7132 605cd9f471028d194ae65d22d6a11bf6 "pdflatex"
+  "./master.bib" 1789244824.42912 35998 6ab78c34802a0d73d6b8f1bd478c5d52 ""
+  "LL_info_content.aux" 1789249628.00899 8437 bbecf98124f5262b08f02ad262da401c "pdflatex"
   (generated)
   "LL_info_content.bbl"
   "LL_info_content.blg"
   (rewritten before read)
-["pdflatex"] 1789232887.91946 "/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/LL_info_content.tex" "LL_info_content.pdf" "LL_info_content" 1789232888.87459 0
-  "/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/LL_info_content.tex" 1789232886.65771 29413 f8a00ab0ea61f8b607d6dfe50f245d78 ""
+["pdflatex"] 1789249627.25383 "/Users/rivet/Documents/dissertation_repos/ll_info_compare/LL_info_content.tex" "LL_info_content.pdf" "LL_info_content" 1789249628.21339 0
+  "/Users/rivet/Documents/dissertation_repos/ll_info_compare/LL_info_content.tex" 1789248243.63002 30151 e4e9ff6255ee6c3213de6a1ffd768d71 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -129,11 +129,11 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1756776006 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "LL_info_content.aux" 1789232888.67971 7132 605cd9f471028d194ae65d22d6a11bf6 "pdflatex"
-  "LL_info_content.bbl" 1789232887.91758 1001 f5d43bbbd9ae92aa2ee61e73d2b13a6b "bibtex LL_info_content"
-  "LL_info_content.out" 1789232888.68042 4503 60c959d28e97256897ffdf6b46b3d29f "pdflatex"
-  "LL_info_content.spl" 1789232888.03877 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "LL_info_content.tex" 1789232886.65771 29413 f8a00ab0ea61f8b607d6dfe50f245d78 ""
+  "LL_info_content.aux" 1789249628.00899 8437 bbecf98124f5262b08f02ad262da401c "pdflatex"
+  "LL_info_content.bbl" 1789249627.25204 3105 23f58cfc1e42646fde2b806899f31d87 "bibtex LL_info_content"
+  "LL_info_content.out" 1789249628.0096 4503 60c959d28e97256897ffdf6b46b3d29f "pdflatex"
+  "LL_info_content.spl" 1789249627.37315 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "LL_info_content.tex" 1789248243.63002 30151 e4e9ff6255ee6c3213de6a1ffd768d71 ""
   "fig_9329-Linear-A-Script.jpg" 1789214397.44592 53961 b8c3b5acd856240a7245d0466d25edc3 ""
   "fig_HDBSCAN Pipeline.png" 1788805018.86473 58508 48a43748fa5238559dd64a6cc5df70fc ""
   "fig_glyphs_example.png" 1785095574.68712 422600 9e451005b32a6db38e1174760ed60341 ""

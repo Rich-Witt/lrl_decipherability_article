@@ -1,15 +1,27 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{englert1948diccionario}
-S.~Englert, Diccionario Rapanui-Espa\~nol, 1948, translated from Spanish to English by Jacques Guy.
+\bibitem{tamburini2025_automatic_decipherment}
+F.~Tamburini, On automatic decipherment of lost ancient scripts relying on combinatorial optimisation and coupled simulated annealing, Frontiers in Artificial Intelligence 8 (2025).
+\newblock \href {https://doi.org/10.3389/frai.2025.1581129} {\path{doi:10.3389/frai.2025.1581129}}.
 
 \bibitem{barthel1958grundlagen}
 T.~S. Barthel, Grundlagen zur Entzifferung der Osterinselschrift, Cram, de Gruyter, Hamburg, 1958.
+
+\bibitem{salgarella2021_sigla}
+E.~Salgarella, S.~Castellan, Sigla: The signs of linear a, a palaeographical database (2021).
+
+\bibitem{yadav2010_indus_ngrams}
+N.~Yadav, H.~Joglekar, R.~P.~N. Rao et~al., \href{https://arxiv.org/abs/0901.3017}{Statistical analysis of the indus script using n-grams} (2010).
+\newblock \href {http://arxiv.org/abs/0901.3017} {\path{arXiv:0901.3017}}.
+\newline\urlprefix\url{https://arxiv.org/abs/0901.3017}
+
+\bibitem{englert1948diccionario}
+S.~Englert, Diccionario Rapanui-Espa\~nol, 1948, translated from Spanish to English by Jacques Guy.
 
 \bibitem{guy_rongorongo_org}
 J.~Guy, \href{http://kohaumotu.org/rongorongo_org/}{Rongorongo or the hieroglyphs of the easter island tablets}, archived and mirrored by Philip Spaelti (2005).
@@ -18,5 +30,26 @@ J.~Guy, \href{http://kohaumotu.org/rongorongo_org/}{Rongorongo or the hieroglyph
 \bibitem{spaelti_2012_glyph}
 P.~Spaelti, \href{http://kohaumotu.org/Rongorongo/Glyph_Library/index.html}{Glyph library}.
 \newline\urlprefix\url{http://kohaumotu.org/Rongorongo/Glyph_Library/index.html}
+
+\bibitem{fischer1997rongorongo}
+S.~R. Fischer, Rongorongo: The Easter Island Script: History, Traditions, Text, Oxford University Press, Oxford, 1997.
+
+\bibitem{karajgikar2025_linear_a}
+J.~R. Karajgikar, A.~Al-Khulaidy, A.~Berea, Computational pattern recognition in linear a (2025).
+
+\bibitem{shannon1945_mathematical_cryptography}
+C.~E. Shannon, A mathematical theory of cryptography, Confidential report, Bell Telephone Laboratories (1945).
+
+\bibitem{manning2008_introduction_ir}
+C.~D. Manning, P.~Raghavan, H.~Sch{\"u}tze, \href{https://nlp.stanford.edu/IR-book/}{Introduction to Information Retrieval}, Cambridge University Press, 2008, see the vector space model discussion of cosine similarity as length-normalized vector comparison.
+\newline\urlprefix\url{https://nlp.stanford.edu/IR-book/}
+
+\bibitem{shannon1949_communication_secrecy}
+C.~E. Shannon, Communication theory of secrecy systems, Bell System Technical Journal 28~(4) (1949) 656--715.
+\newblock \href {https://doi.org/10.1002/j.1538-7305.1949.tb00928.x} {\path{doi:10.1002/j.1538-7305.1949.tb00928.x}}.
+
+\bibitem{Academies_decadal}
+{National Academies of Sciences, Engineering, and Medicine}, \href{https://nap.nationalacademies.org}{Decadal surveys}, National Academies Press, (Accessed: 3 December 2024).
+\newline\urlprefix\url{https://nap.nationalacademies.org}
 
 \end{thebibliography}

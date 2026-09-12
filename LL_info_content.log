@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 SEP 2026 13:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 SEP 2026 17:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/LL_info_content.tex
-(/Users/rivet/Documents/dissertation_repos/lrl_decipherability_article/LL_info_content.tex
+**/Users/rivet/Documents/dissertation_repos/ll_info_compare/LL_info_content.tex
+(/Users/rivet/Documents/dissertation_repos/ll_info_compare/LL_info_content.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/elsarticle/elsarticle.cls
@@ -409,12 +409,12 @@ Overfull \hbox (4.31482pt too wide) in paragraph at lines 246--247
 
 
 [3]
-<fig_rongo_g_washington.png, id=175, 1495.08563pt x 366.87062pt>
+<fig_rongo_g_washington.png, id=193, 1495.08563pt x 366.87062pt>
 File: fig_rongo_g_washington.png Graphic file (type png)
 <use fig_rongo_g_washington.png>
 Package pdftex.def Info: fig_rongo_g_washington.png  used on input line 275.
 (pdftex.def)             Requested size: 350.99762pt x 86.12503pt.
-<fig_glyphs_example.png, id=176, 854.19125pt x 564.1075pt>
+<fig_glyphs_example.png, id=194, 854.19125pt x 564.1075pt>
 File: fig_glyphs_example.png Graphic file (type png)
 <use fig_glyphs_example.png>
 Package pdftex.def Info: fig_glyphs_example.png  used on input line 282.
@@ -422,7 +422,7 @@ Package pdftex.def Info: fig_glyphs_example.png  used on input line 282.
 
 
 [4 <./fig_rongo_g_washington.png> <./fig_glyphs_example.png>]
-<fig_9329-Linear-A-Script.jpg, id=188, 582.175pt x 692.5875pt>
+<fig_9329-Linear-A-Script.jpg, id=206, 582.175pt x 692.5875pt>
 File: fig_9329-Linear-A-Script.jpg Graphic file (type jpg)
 <use fig_9329-Linear-A-Script.jpg>
 Package pdftex.def Info: fig_9329-Linear-A-Script.jpg  used on input line 304.
@@ -434,7 +434,7 @@ Package pdftex.def Info: fig_9329-Linear-A-Script.jpg  used on input line 304.
 [6 <./fig_9329-Linear-A-Script.jpg>]
 
 [7]
-<fig_HDBSCAN Pipeline.png, id=207, 930.47626pt x 150.5625pt>
+<fig_HDBSCAN Pipeline.png, id=234, 930.47626pt x 150.5625pt>
 File: fig_HDBSCAN Pipeline.png Graphic file (type png)
 <use fig_HDBSCAN Pipeline.png>
 Package pdftex.def Info: fig_HDBSCAN Pipeline.png  used on input line 356.
@@ -457,7 +457,7 @@ Underfull \hbox (badness 2837) in paragraph at lines 480--480
 (./LL_info_content.bbl
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 \T1/cmr/m/n/12 URL [][]$\T1/cmtt/m/n/12 http : / / kohaumotu . org / Rongorongo / Glyph _ Library / index .
  []
 
@@ -472,18 +472,18 @@ Package rerunfilecheck Info: File `LL_info_content.out' has not changed.
 (rerunfilecheck)             Checksum: 60C959D28E97256897FFDF6B46B3D29F;4503.
  ) 
 Here is how much of TeX's memory you used:
- 11639 strings out of 473190
- 175806 string characters out of 5715801
- 581106 words of memory out of 5000000
- 34669 multiletter control sequences out of 15000+600000
+ 11675 strings out of 473190
+ 176975 string characters out of 5715801
+ 581266 words of memory out of 5000000
+ 34696 multiletter control sequences out of 15000+600000
  573580 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1094b,687s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1201b,687s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on LL_info_content.pdf (16 pages, 4810070 bytes).
+Output written on LL_info_content.pdf (16 pages, 4816677 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 69 named destinations out of 1000 (max. 500000)
  258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
